@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;800;900&display=swap');
+@font-face {
+    font-family: Bouba-bold;
+    src: url(/fonts/HvDTrial_BoubaRound-Bold-BF648a779c6e07c.otf);
+}
+@font-face {
+    font-family: Bouba-regular;
+    src: url(/fonts/HvDTrial_BoubaRound-Light-BF648a779c40ea9.otf);
+}
+@font-face {
+    font-family: Bouba-black;
+    src: url(/fonts/HvDTrial_BoubaRound-Black-BF648a779c4ff2f.otf);
+}
+body{
+    font-family: Bouba-regular;
+}
+
+.nav-item{
+    padding-right: 30px;
+}
+
+.navbar{
+    background-color: #ffffff00;
+
+}
+
+.navbar-brand {
+    font-family: Bouba-black;
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: #111111;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+.navbar-brand:hover {
+    font-family: Bouba-black;
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: #13ad0f;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #111111;
+    text-decoration: none;
+    background: none;
+    border: 0;
+    font-size: 15px;
+    margin: 0px 8px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #111111;
+    font-weight: bold;
+}
+
+.bgDark{
+    background-color: #e9f9e8;
+}
+
+.fstheading{
+    font-family: Bouba-bold;
+    font-size: 50px;
+}
+
+h1{
+    font-family: Bouba-bold;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.headimg{
+    position: absolute;
+    width: 99%;
+    top: -140px;
+    left: 7px;
+}
+.headingb{
+    border: solid #111111 5px;
+    margin: 10px 311px;
+    padding: 10px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1230px;
+}
+
+.sectionimg{
+    width: 100%;
+}
+
+.btn-dark {
+    font-family: Bouba-bold;
+    letter-spacing: 2px;
+    background-color: #212529;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 14px 50px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #424649;
+    --bs-btn-hover-border-color: #373b3e;
+    --bs-btn-focus-shadow-rgb: 66, 70, 73;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4d5154;
+    --bs-btn-active-border-color: #373b3e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #212529;
+    --bs-btn-disabled-border-color: #212529;
+}
+
+.btn-dark:hover {
+    background-color: #13ad0f;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 14px 50px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #424649;
+    --bs-btn-hover-border-color: #373b3e;
+    --bs-btn-focus-shadow-rgb: 66, 70, 73;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4d5154;
+    --bs-btn-active-border-color: #373b3e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #212529;
+    --bs-btn-disabled-border-color: #212529;
+}
+
+.d-row{
+    background-color: #f8fafc;
+    border-radius: 2px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+  }
+
+.videotest{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: solid #13ad0f 2px;
+}
+
+.headimgs {
+    position: absolute;
+    width: 99%;
+    top: 211px;
+    left: 7px;
+}
+
+.howtocol{
+    background-color: #13ad0f;
+    border-radius: 20px;
+    padding: 30px;
+}
+.howtocolm{
+    background-color: white;
+    box-shadow: 0px 0px 10px lightgray;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.howtoh{
+    text-align: start;
+    color: #ffaf2d;
+    font-size: 50px;
+}
+
+.howtop{
+    padding-top: 163px;
+    font-size: 20px;
+    font-weight: 800;
+    color: green;
+}
+
+.howtoimg{
+    position: absolute;
+    width: 120px;
+    top: 850px;
+    transition: ease-in-out;
+}
+.col-md-4-c {
+    flex: 0 0 auto;
+    width: 31%;
+    margin: 10px;
+}
+
+.headimgse {
+    position: absolute;
+    width: 48%;
+    top: 200px;
+    left: 22px;
+}
+
+.img-row{
+    background-image: url(/images/fullimg.png);
+    background-size: cover;
+    height: 466px;
+}
+
+.img-row-2 {
+    background-image: url(/images/group-people.jpg);
+    background-size: cover;
+    height: 373px;
+    margin-top: -166px;
+    border-radius: 0px 0px 80px 0px;
+}
+
+.whatis{
+    padding-top: 140px;
+    padding-left: 96px;
+}
+
+.asasender{
+    padding-top: 140px;
+    padding-left: 50px;
+    height: 90vh;
+    padding-right: 90px;
+}
+
+.asareceiver{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.ib-account{
+        padding-top: 130px;
+    padding-right: 40px;
+}
+
+.howtovideo{
+    border-radius: 20px;
+    border: #13ad0f solid 3px;
+    width: 70%;
+}
+
+.privacy{
+    padding: 40px 240px;
+}
+
+@media only screen and (max-width: 600px) {
+    .headimg {
+        position: absolute;
+        width: 99%;
+        top: 481px;
+        left: 7px;
+    }
+
+    .headingb {
+        border: solid #111111 5px;
+        margin: 0px 0px;
+        padding: 10px;
+        border-radius: 0px 20px 0px 20px;
+    }
+
+    .whatis{
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+
+    .asasender {
+        padding-top: 40px;
+        padding-left: 25px;
+        height: 40vh;
+        padding-right: 25px;
+    }
+
+    .ib-account{
+        padding-top: 30px;
+    padding-right: 0px;
+    padding-left: 25px;
+}
+
+.howtovideo{
+    border-radius: 20px;
+    border: #13ad0f solid 3px;
+    width: 99%;
+}
+
+.privacy{
+    padding: 5px;
+}
+
+  }
